@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <>
       <nav className={fix ? 'nav-bg' : 'nav'}>
-        <h3>Martin</h3>
+        <a href="#"><h3>Martin</h3></a>
         <div ref={navRef} className="nav-links">
           <a href="#about">Home</a>
           <a href="#about">About</a>
